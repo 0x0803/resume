@@ -214,6 +214,24 @@ a {
   }
 }
 
+.margin-wx {
+  @media screen and (max-width: 1024px) {
+    padding-bottom: 200px;
+  }
+}
+
+.wx {
+  width: 150px; 
+  height: 150px; 
+  position: absolute; 
+  right: 45px; 
+  bottom: 0;
+  @media screen and (max-width: 1024px) {
+    bottom: 45px;
+    right: calc(50vw - 75px);
+  }
+}
+
 .content-bd {
   width: 100%;
   min-height: 200px;
